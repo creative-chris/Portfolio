@@ -1,0 +1,108 @@
+main {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border: solid transparent 2px;
+}
+#img1 {
+    position: absolute!important;
+    z-index: -1;
+    margin-top: 20vh;
+    width: 100vw;
+    padding-top: 100px;
+    opacity: 0;
+}
+
+#toptext {
+    position: relative!important;
+    margin-top: 40vh;
+    float: right;
+}
+
+#toptext h1, #toptext p {
+    color: white;
+}
+#toptext p {
+    max-width: 500px;
+}
+
+#bottomtext {
+    position: relative;
+    margin-top: 110vh;
+    top: 100px;
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+    height: 100%;
+    min-height: 500px;
+    width: 100%;
+    border: solid transparent 3px;
+}
+#bottomtext h1 {
+    position: absolute;
+    float: none;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, 0);
+}
+.popup {
+    position: relative;
+    left: 200px;
+    opacity: 0.5;
+}
+#popup1 {
+    
+}
+#bottomtext img {
+    height: 200px;
+    position: relative;
+}
+#bottomtext ul {
+    position: relative;
+    width: 100%;
+    margin-top: 80px;
+    height: 100%;
+    border: solid transparent 3px;
+}
+#bottomtext ul li {
+    display: inline-block;
+    padding: 10px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+#bottomtext ul li:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    transition: 2s;
+    
+}
+#exp {
+    position: relative;
+    width:  100%;
+    margin-top: 500px;
+    padding: 0px 0px 50px 0px;
+    text-align: center;
+    display: none;
+}
+#exp ul {
+    position: relative;
+    width: 100%;
+    padding-bottom: 50px!important;
+}
+#exp li {
+    top: 0!important;
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    border: solid #1cbbb4 3px;
+    padding: 10px;
+    width: 300px;
+    text-align: left;
+}
+
+@media screen and (max-width: 1024px) {
+    #exp {
+        display: block;
+    }
+}
